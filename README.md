@@ -1,5 +1,5 @@
 # PM10 Comparing
-## European capital cities
+## Analysis of European capital cities
 
 This project offers a tool that is useful in order to compare the pm10 concentration levels in the most important european cities for the period 27 Octuber - 31 December 2019.
 
