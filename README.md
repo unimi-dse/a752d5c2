@@ -8,15 +8,15 @@ Cvs files containing data have been collected by [OpenAQ](https://openaq.org/#/?
 The app is structured on four tabs:
 
 
-**first tab:** 
->*plot:* It provides a first sight on the data; thanks to a time series plot, it's observable in only one graph the proceeding of the pm10 levels in the selected cities;
+**First tab:** 
+>***plot:*** It provides a first sight on the data; thanks to a time series plot, it's observable in only one graph the proceeding of the pm10 levels in the selected cities;
 
-**second tab:** 
->*summary:* this tab contains the main statistics informatio of the two cities selected (mean, median, min, max...);
+**Second tab:** 
+>***summary:*** this tab contains the main statistics informatio of the two cities selected (mean, median, min, max...);
 
-**third tab:** 
->*t-test:* in this tab the user can analyse the output of the t-test applied on the values of pm10 concentration of the two cities selected. It contains informations like t-statistics, p_value, means...
+**Third tab:** 
+>***t-test:*** in this tab the user can analyse the output of the t-test applied on the values of pm10 concentration of the two cities selected. It contains informations like t-statistics, p_value, means...
 
-**fourth tab:** 
+***Fourth tab:*** 
 >*BoxPlot:* in the last tab, the boxplot of the value of pm10 of the two cities selected are placed side by side in order to do a final comparison between the pm10 concentration for the two cities selected.
  
