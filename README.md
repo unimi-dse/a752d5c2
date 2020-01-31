@@ -9,7 +9,7 @@ The app is structured on four tabs:
 
 
 **First tab:** 
->***plot:*** It provides a first sight on the data; thanks to a time series plot, it's observable in only one graph the proceeding of the pm10 levels in the selected cities;
+>***plot:*** It provides a first sight on the data. Thanks to a time series plot, it's observable in only one graph the proceeding of the pm10 levels in the selected cities;
 
 **Second tab:** 
 >***summary:*** this tab contains the main statistics informatio of the two cities selected (mean, median, min, max...);
