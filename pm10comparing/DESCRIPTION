@@ -1,0 +1,10 @@
+Package: pm10comparing
+Type: Package
+Title: Pm10 Comparing
+Version: 0.1.0
+Author: Emanuele Morales
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Contains the code for comparing PM10 concentration levels in the main european cities.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
