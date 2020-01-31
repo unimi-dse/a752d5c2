@@ -9,14 +9,14 @@ The app is structured on four tabs:
 
 
 **First tab:** 
->***plot:*** It provides a first sight on the data. Thanks to a time series plot, it's observable in only one graph the proceeding of the pm10 levels in the selected cities;
+>***Plot:*** It provides a first sight on the data. Thanks to a time series plot, it's observable in only one graph the proceeding of the pm10 levels in the selected cities;
 
 **Second tab:** 
->***summary:*** this tab contains the main statistics informatio of the two cities selected (mean, median, min, max...);
+>***Summary:*** this tab contains the main statistics informatio of the two cities selected (mean, median, min, max...);
 
 **Third tab:** 
->***t-test:*** in this tab the user can analyse the output of the t-test applied on the values of pm10 concentration of the two cities selected. It contains informations like t-statistics, p_value, means...
+>***T-test:*** in this tab the user can analyse the output of the t-test applied on the values of pm10 concentration of the two cities selected. It contains informations like t-statistics, p_value, means...
 
 ***Fourth tab:*** 
->*BoxPlot:* in the last tab, the boxplot of the value of pm10 of the two cities selected are placed side by side in order to do a final comparison between the pm10 concentration for the two cities selected.
+>***BoxPlot:*** in the last tab, the boxplot of the value of pm10 of the two cities selected are placed side by side in order to do a final comparison between the pm10 concentration for the two cities selected.
  
