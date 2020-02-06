@@ -4,8 +4,9 @@
 #'
 #' @return shiny app
 #' @export
+#'
 comparing_pm10 <- function(){
 
-  shiny::runApp(system.file("pm10", package = "pm10comparing"), launch.browser = T)
+  shiny::runApp(system.file("pm10", package = "pm10comparing"))
 
 }
