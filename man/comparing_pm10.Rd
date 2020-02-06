@@ -12,8 +12,3 @@ shiny app
 \description{
 Descritption
 }
-\examples{
-\dontrun{
-comparing_pm10()
-}
-}

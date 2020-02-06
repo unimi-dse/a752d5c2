@@ -1,32 +1,20 @@
-#function that creates dataframes to be used in the shiny app, starting from existing csv files.
-createDF<- function(pm_city){
-  city <- substr(pm_city, 6, nchar(pm_city))
-  db<- read.csv(paste0(pm_city,".csv"))
-  date_city <- as.Date(db$utc, format("%d/%m/%y"))
-  date <- c(date_city)
-  value <- c(db$value)
-  city <- c(city)
-  df <- data.frame(date, value, city)
-  return(df)
-}
+db <- pm10
+date_city <- as.Date(db$utc, format("%d/%m/%y"))
+date <- c(date_city)
+value <- c(db$value)
+city <- c(as.character(db$city))
+city
+df <- data.frame(date, value, city)
+df
+stack_data <- df
+stack_databis <- df
 
-#application of the function on the csv files
-dfrome <- createDF("pm10_Rome")
-dfberlin <- createDF("pm10_Berlin")
-dfporto <- createDF("pm10_Porto")
-dfparis <- createDF("pm10_Paris")
-
-#combination of dataframes
-stack_data <-rbind(dfrome, dfberlin, dfparis, dfporto)
-stack_databis <- rbind(dfrome, dfberlin, dfparis, dfporto)
-
-#server of the application
 server<- shinyServer(
 
   function(input, output){
 
     datasetInput <- reactive({
-      dplyr::filter(stack_data, stack_data$city== input$dataset)
+      dplyr::filter(stack_data, stack_data$city == input$dataset)
     })
 
     datasetInputbis <- reactive({
@@ -99,3 +87,5 @@ server<- shinyServer(
 
     })
   })
+
+
