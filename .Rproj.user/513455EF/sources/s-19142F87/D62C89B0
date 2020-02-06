@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580992735326.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2710448820",
+    "id" : "D62C89B0",
+    "lastKnownWriteTime" : 1580988399,
+    "last_content_update" : 1580988399,
+    "path" : "~/GitHub/a752d5c2/R/berlin.R",
+    "project_path" : "R/berlin.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

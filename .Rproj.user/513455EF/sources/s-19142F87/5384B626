@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1580992538644.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "491707532",
+    "id" : "5384B626",
+    "lastKnownWriteTime" : 1580988265,
+    "last_content_update" : 1580988265,
+    "path" : "~/GitHub/a752d5c2/inst/pm10/server.R",
+    "project_path" : "inst/pm10/server.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
