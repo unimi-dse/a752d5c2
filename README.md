@@ -5,19 +5,19 @@ This project offers a tool that is useful in order to compare the pm10 concentra
 
 Cvs file containing data has been collected by [OpenAQ](https://openaq.org/#/?_k=6jfjk3), a website that offers open air quality data.
 
-# Install 
+## Install 
 
 ```R
 # first install the R package "devtools" if not installed
 devtools::install_github("unimi-dse/a752d5c2")  
 ```
-# Usage
+## Usage
 
 ```R
 require(pm10comparing)  
 comparing_pm10()   
 ```
-# App Structure
+## App Structure
 
 The app is structured on four tabs:
 
