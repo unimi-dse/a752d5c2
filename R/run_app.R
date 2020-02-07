@@ -1,8 +1,8 @@
 #' shinyapp "pm10 comparing"
 #'
-#' Descritption
+#' The function does not require an input variable. It depends on the input dataset
 #'
-#' @return shiny app
+#' @return Runs the shiny app containing an interactive analysis on the data contained in the input database.
 #'
 #' @export
 comparing_pm10 <- function(){

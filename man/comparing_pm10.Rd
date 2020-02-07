@@ -7,8 +7,8 @@
 comparing_pm10()
 }
 \value{
-shiny app
+Runs the shiny app containing an interactive analysis on the data contained in the input database.
 }
 \description{
-Descritption
+The function does not require an input variable. It depends on the input dataset
 }

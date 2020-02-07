@@ -1,11 +1,11 @@
+#creation of dataframe containing: date, pm10 value, name of the city
 db <- pm10
 date_city <- as.Date(db$utc, format("%d/%m/%y"))
 date <- c(date_city)
 value <- c(db$value)
 city <- c(as.character(db$city))
-city
 df <- data.frame(date, value, city)
-df
+
 stack_data <- df
 stack_databis <- df
 
