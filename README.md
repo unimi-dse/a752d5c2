@@ -8,6 +8,7 @@ Cvs file containing data has been collected by [OpenAQ](https://openaq.org/#/?_k
 # Install 
 
 ```R
+# first install the R package "devtools" if not installed
 devtools::install_github("unimi-dse/a752d5c2")  
 ```
 # Usage
