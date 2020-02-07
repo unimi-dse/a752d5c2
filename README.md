@@ -3,7 +3,7 @@
 
 This project offers a tool that is useful in order to compare the pm10 concentration levels in the most important european cities for the period *27 October - 31 December 2019*.
 
-Cvs files containing data have been collected by [OpenAQ](https://openaq.org/#/?_k=6jfjk3), a website that offers open air quality data.
+Cvs file containing data has been collected by [OpenAQ](https://openaq.org/#/?_k=6jfjk3), a website that offers open air quality data.
 
 # Install 
 
