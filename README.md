@@ -33,4 +33,7 @@ The app is structured on four tabs:
 
 **Fourth tab:** 
 >***BoxPlot:*** in the last tab, the boxplots of the values of pm10 of the two cities selected are placed side by side in order to do a final comparison between the pm10 concentration.
+
+**Fifth tab:**
+> ***ADF - Augmented Dickey Fuller Test:*** in this tab the user can apply the ADF on the time series to verify if there's a unit root in the series. 
  
