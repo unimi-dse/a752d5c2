@@ -1,17 +1,17 @@
-#creation of dataframe containing: date, pm10 value, name of the city
-db <- pm10
-date_city <- as.Date(db$utc, format("%d/%m/%y"))
-date <- c(date_city)
-value <- c(db$value)
-city <- c(as.character(db$city))
-df <- data.frame(date, value, city)
-
-stack_data <- df
-stack_databis <- df
-
 server<- shinyServer(
 
   function(input, output){
+
+    #dataframe creation
+
+    date_city <- as.Date(pm10$utc, format("%d/%m/%y"))
+    date <- c(date_city)
+    value <- c(pm10$value)
+    city <- c(as.character(pm10$city))
+    df <- data.frame(date, value, city)
+
+    stack_data <- df
+    stack_databis <- df
 
     datasetInput <- reactive({
       dplyr::filter(stack_data, stack_data$city == input$dataset)
@@ -86,6 +86,24 @@ server<- shinyServer(
         ggplot2::theme(axis.title.x=ggplot2::element_blank(), axis.text.x=ggplot2::element_blank(), axis.ticks.x=ggplot2::element_blank())
 
     })
+
+    #Augmented Dickey-Fuller (ADF): Unit Root Test, first city
+      output$adf <- renderPrint({
+      dataset <-datasetInput()
+      First_city <- dataset$value
+      tseries::adf.test(First_city)
+      })
+
+    #Augmented Dickey-Fuller (ADF): Unit Root Test, second city
+        output$adfbis <- renderPrint({
+        datasetbis <-datasetInputbis()
+        Second_city <- datasetbis$value
+        tseries::adf.test(Second_city)
+      })
+
   })
+
+
+
 
 

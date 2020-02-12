@@ -25,11 +25,15 @@ ui<- fluidPage(
                            helpText("This test is used to determin whether the means of
                                      the two groups are equal to each other:"),
                            verbatimTextOutput("test"),
-                           helpText("If the p-value is larger than 0.05, the null hypothesis is accepted")),
+                           helpText("If the p-value is larger than 0.05, the null hypothesis can't be rejected")),
                   tabPanel("BoxPlot", fluidRow(
                     column(5, plotOutput("boxplot_main")),
-                    column(5, plotOutput("boxplot_comparing"))
-                  ))
+                    column(5, plotOutput("boxplot_comparing")))),
+
+                  tabPanel("ADF test",
+                           helpText("First city selected:"),verbatimTextOutput("adf"),
+                           helpText("Second city selected:"), verbatimTextOutput("adfbis"),
+                           helpText("If the p-value is larger than 0.05, the null hypothesis can't be rejected"))
       ))
   )
 )

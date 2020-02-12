@@ -1,6 +1,6 @@
 #' pm 10 comparing
 #'
-#' Description
+#' Dataset containing the data of the pm10 concentration in the main european cities.
 #'
 #'
 #' @format tibble
