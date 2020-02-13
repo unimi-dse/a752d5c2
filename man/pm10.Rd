@@ -9,6 +9,6 @@
 pm10
 }
 \description{
-Description
+Dataset containing the data of the pm10 concentration in the main european cities.
 }
 \keyword{datasets}

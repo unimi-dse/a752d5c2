@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581590142106.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B5EA0302",
+    "lastKnownWriteTime" : 1581590356,
+    "last_content_update" : 1581590356428,
+    "path" : "~/GitHub/a752d5c2/inst/pm10/server.R",
+    "project_path" : "inst/pm10/server.R",
+    "properties" : {
+        "cursorPosition" : "14,23",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
